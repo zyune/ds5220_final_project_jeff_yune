@@ -24,7 +24,7 @@ Smoothing constant
 
 # level update equation
 
-![output](img/level_updating_equation.png)
+![output](img/levelupdatingequation.png)
 
 In this equation we're taking the level at time t and updating the previous level at time,t minus 1 by integrating information from our most recent data point, Yt.
 
@@ -39,3 +39,10 @@ We can see that weights decrease exponentially into the past,
 ## smoothing constant
 
 ![output](img/smoothingconstant.png)
+
+# RNN
+
+RNN have weights biases, layer and activation functions, The big difference is RNN has feedback loops.
+Although RNN may look like it only take single input value. The feedback loop makes it possible to use sequential input values, like stock market price collected over time, to make prediction
+
+![output](img/RNN.png)
